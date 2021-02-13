@@ -14,10 +14,6 @@ export default function Index(): JSX.Element {
           posts={posts}
           heading="Yeah this seems alright"
           intro="Andras stop snooping"
-          headingLevel="h2"
-          postTitleLevel="h3"
-          count={6}
-          id={styles.post_list}
           />
       </main>
       <Footer copyrightHolder={settings?.title} />
