@@ -12,7 +12,7 @@ export default function Index(): JSX.Element {
       <main className="content content-index">
         <Posts 
           posts={posts}
-          heaading="Yeah this seems alright"
+          heading="Yeah this seems alright"
           intro="Andras stop snooping"
           headingLevel="h2"
           postTitleLevel="h3"
