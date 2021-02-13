@@ -9,7 +9,7 @@ export default function Page(): JSX.Element {
     <>
       <Header title={settings?.title} description={settings?.description} />
       <main className="content content-page">
-        <Hero title={`Oops! That page can’t be found.`} />
+        <Hero title={`Oops! That page can’t be found. Hi Andras....`} />
         <div className="wrap">
           <div>
             <div>
