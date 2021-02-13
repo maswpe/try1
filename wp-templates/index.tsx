@@ -10,7 +10,15 @@ export default function Index(): JSX.Element {
     <>
       <Header title={settings?.title} description={settings?.description} />
       <main className="content content-index">
-        <Posts posts={posts} />
+        <Posts 
+          posts={posts}
+          heaading="Yeah this seems alright"
+          intro="Andras stop snooping"
+          headingLevel="h2"
+          postTitleLevel="h3"
+          count={6}
+          id={styles.post_list}
+          />
       </main>
       <Footer copyrightHolder={settings?.title} />
     </>
